@@ -2,7 +2,7 @@
 
 USE `registry`;
 
-CREATE TABLE `agents` (
+CREATE TABLE IF NOT EXISTS `agents` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `NAME` varchar(30) NOT NULL,
   `SPECIES` varchar(100) NOT NULL,
